@@ -1,0 +1,17 @@
+.cards__display {
+    background-color: #F6F6F6;
+    border-radius: 25px;
+    display: grid;
+    gap: 30px;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.card {
+    border-radius: 20px;
+}

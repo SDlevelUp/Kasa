@@ -30,12 +30,8 @@ root.render(
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="rental/:id" element={<RentalHome />} />
-
-
-
             </Routes>
             <Footer/>
-
         </Router>
             </React.StrictMode>
 

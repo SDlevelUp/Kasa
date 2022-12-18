@@ -1,0 +1,14 @@
+.home {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .home {
+        margin-top: 16px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
