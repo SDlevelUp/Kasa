@@ -1,21 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
-
-
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Header from "./components/Header/Header"
-import Home from "./pages/Home/Home"
-
+//Styles
 import "./index.css";
 
 // Import Pages 
+import Home from "./pages/Home/Home"
+import RentalHome from "./pages/RentalHome/RentalHome"
 
 
 // Import Components
-
-
+import Header from "./components/Header/Header"
+import Footer from "./components/Footer/Footer"
 
 
 
@@ -31,9 +29,12 @@ root.render(
             <Header />
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="rental/:id" element={<RentalHome />} />
+
 
 
             </Routes>
+            <Footer/>
 
         </Router>
             </React.StrictMode>
