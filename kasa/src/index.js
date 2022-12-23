@@ -7,20 +7,16 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import "./index.css";
 
 // Import Pages 
-import Home from "./pages/Home/Home"
-import RentalHome from "./pages/RentalHome/RentalHome"
-
+import Home from "./pages/Home/Home";
+import RentalsPage from "./pages/RentalsPage/RentalsPage";
+import About from "./pages/About/About";
 
 // Import Components
-import Header from "./components/Header/Header"
-import Footer from "./components/Footer/Footer"
-
-
-
-
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 // Import About
-
+import about from "../src/data/about.json";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -29,17 +25,12 @@ root.render(
             <Header />
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="rental/:id" element={<RentalHome />} />
+                <Route path="rental/:id" element={<RentalsPage />} />
+                <Route path="/about" element={<About data={about} />} />
             </Routes>
-            <Footer/>
-        </Router>
+            <Footer />
+            </Router>
             </React.StrictMode>
-
-
-
-
-
-
 )
 
 
