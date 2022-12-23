@@ -1,0 +1,42 @@
+.about-title {
+    color: black;
+    font-size: 24px;
+    font-family: Montserrat;
+}
+
+.about__page {
+    margin-top: 5px;
+    margin-bottom: 80px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.banner__about {
+    margin-top: 49px;
+    margin-bottom: 80px;
+    margin-left: 70px;
+    margin-right: 70px;
+    filter: brightness(70%);
+    width: 110px;
+}
+
+.about .banner {
+    height: 110px;
+}
+
+.dropdown__about {
+    margin-left: 108px;
+    margin-right: 109px;
+}
+
+@media screen and (max-width: 768px) {
+    .about__page {
+        margin: 17px 20px 29px 20px;
+    }
+
+    .dropdown__about {
+        margin-top: 19px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
