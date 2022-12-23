@@ -5,6 +5,19 @@
     margin-right: 100px;
 }
 
+.banner {
+    /* position: absolute; */
+    height: 223px;
+    /* left: 100px; */
+    /* top: 171px; */
+    background-image: url("../../assets/banner.png");
+    background-repeat: no-repeat;
+    width: 100%;
+
+    mix-blend-mode: darken;
+    opacity: 0.9;
+}
+
 @media screen and (max-width: 768px) {
     .home {
         margin-top: 16px;

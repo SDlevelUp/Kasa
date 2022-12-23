@@ -13,7 +13,6 @@ function Home() {
             />
             <CardsDisplay />
         </main>
-
     );
 
 }
