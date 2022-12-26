@@ -11,7 +11,7 @@
 
 }
 
-.footer__allrights {
+.footer_allrights {
     color: white;
     font-family: Montserrat;
     font-style: medium;
@@ -21,19 +21,19 @@
     text-align: center;
 }
 
-.footer__logo {
+.footer_logo {
     width: 140px;
     margin-top: 20px;
 }
 
 @media screen and (max-width: 768px) {
-    .footer__allrights {
+    .footer_allrights {
         font-size: 12px;
         font-weight: 500;
         line-height: 17px;
     }
 
-    .footer__logo>img {
+    .footer_logo>img {
         width: 122px;
     }
 }
