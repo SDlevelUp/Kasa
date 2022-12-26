@@ -9,7 +9,7 @@
     overflow: hidden;
 }
 
-.banner__background {
+.banner_background {
     background-color: black;
     position: absolute;
     top: 0;
@@ -19,7 +19,7 @@
     opacity: 0.4;
 }
 
-.banner__img {
+.banner_img {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -27,16 +27,20 @@
     filter: brightness(70%);
 }
 
-.banner__text {
+.banner_text {
     font-family: Montserrat;
-    font-size: 48px;
+    font-size: 47px;
     font-weight: 500;
+    position: absolute;
+    color: white;
+    margin: 0;
+    display: flex;
     align-items: center;
     justify-content: center;
-    display: flex;
+    box-sizing: border-box;
 }
 
-.banner__text {
+/* .banner__text {
     position: absolute;
     top: 0;
     color: white;
@@ -53,10 +57,10 @@
     font-weight: 500;
     line-height: 68px;
 }
-
+ */
 
 @media screen and (max-width: 768px) {
-    .banner__text {
+    .banner_text {
         font-size: 24px;
         align-items: center;
         justify-content: flex-start;

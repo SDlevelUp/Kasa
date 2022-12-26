@@ -5,9 +5,9 @@ import "./Banner.css"
 function Banner({ image, text }) {
     return (
         <div className="banner">
-            <img src={image} alt="Banner" className="banner__img" />
-            <div className="banner__background"></div>
-            {text ? <h1 className="banner__text">{text}</h1> : null}
+            <img src={image} alt="Banner" className="banner_img" />
+            <div className="banner_background"></div>
+            {text ? <h1 className="banner_text">{text}</h1> : null}
         </div>
     );
 };
