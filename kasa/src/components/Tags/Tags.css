@@ -1,0 +1,26 @@
+.tagCity {
+    background-color: #ff6060;
+    border-radius: 10px;
+    color: white;
+    padding: 3px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    min-width: 50px;
+    text-align: center;
+    min-width: 70px;
+}
+
+.tagCity_text {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Montserrat;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    .tagCity_text {
+        font-size: 14px;
+    }
+}

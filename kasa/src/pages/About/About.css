@@ -4,14 +4,14 @@
     font-family: Montserrat;
 }
 
-.about__page {
+.about_page {
     margin-top: 5px;
     margin-bottom: 80px;
     margin-left: 70px;
     margin-right: 70px;
 }
 
-.banner__about {
+.banner_about {
     margin-top: 49px;
     margin-bottom: 80px;
     margin-left: 70px;
@@ -24,17 +24,17 @@
     height: 110px;
 }
 
-.dropdown__about {
+.collapse_about {
     margin-left: 108px;
     margin-right: 109px;
 }
 
 @media screen and (max-width: 768px) {
-    .about__page {
+    .about_page {
         margin: 17px 20px 29px 20px;
     }
 
-    .dropdown__about {
+    .collapse_about {
         margin-top: 19px;
         margin-left: 0px;
         margin-right: 0px;

@@ -1,0 +1,4 @@
+.ratings_star {
+    display: flex;
+    justify-content: flex-end;
+}

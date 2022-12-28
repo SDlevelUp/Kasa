@@ -1,19 +1,19 @@
 import "./About.css";
-import Dropdown from "../../components/Dropdown/Dropdown";
+import Collapse from "../../components/Collapse/Collapse";
 import banner from "../../assets/bannerAbout.png";
 import Banner from "../../components/Banner/Banner";
 
 function About({ data }) {
     return (
-        <div className="about__page">
-            <Banner className="banner__about" image={banner} />
-            <div className="dropdown__about">
+        <div className="about_page">
+            <Banner className="banner_about" image={banner} />
+            <div className="collapse_about">
                 {data.map((item) => (
-                    <Dropdown
+                    <Collapse
                         titre={item.title}
                         key={item.id}
                         description={item.content}>
-                    </Dropdown>
+                    </Collapse>
                 ))}
             </div>
         </div>

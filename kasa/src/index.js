@@ -1,15 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 //Styles
 import "./index.css";
 
 // Import Pages 
 import Home from "./pages/Home/Home";
-import RentalsPage from "./pages/RentalsPage/RentalsPage";
+import Rentals from "./pages/Rentals/Rentals";
 import About from "./pages/About/About";
+import Error404 from "./pages/Error404/Error404";
 
 // Import Components
 import Header from "./components/Header/Header";
@@ -25,12 +26,13 @@ root.render(
             <Header />
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="rental/:id" element={<RentalsPage />} />
+                <Route path="products/:id" element={<Rentals />} />
                 <Route path="/about" element={<About data={about} />} />
+                <Route path="/404" element={<Error404/>} />
             </Routes>
             <Footer />
-            </Router>
-            </React.StrictMode>
+        </Router>
+    </React.StrictMode>
 )
 
 

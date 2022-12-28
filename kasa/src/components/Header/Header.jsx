@@ -7,14 +7,14 @@ function Header() {
     return (
         <nav className="navigation">
             <NavLink to="/">
-                <img src={logo} alt="Logo Kasa" className="nav__image" />
+                <img src={logo} alt="Logo Kasa" className="nav_image" />
             </NavLink>
             <div>
-                <NavLink className="nav__links" to="/">
-                    Acceuil
+                <NavLink className="nav_link" to="/">
+                    Accueil
                 </NavLink>
-                <NavLink className="nav__links" to="/about">
-                    A propos
+                <NavLink className="nav_link" to="/about">
+                    A Propos
                 </NavLink>
             </div>
         </nav>
