@@ -1,4 +1,4 @@
-.ratings_star {
-    display: flex;
-    justify-content: flex-end;
+.rental_ratings>img {
+    width: 30px;
+    height: 30px;
 }
