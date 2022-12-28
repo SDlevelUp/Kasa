@@ -6,17 +6,17 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 //Styles
 import "./index.css";
 
-// Import Pages 
+// Pages 
 import Home from "./pages/Home/Home";
 import Rentals from "./pages/Rentals/Rentals";
 import About from "./pages/About/About";
 import Error404 from "./pages/Error404/Error404";
 
-// Import Components
+// Components
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 
-// Import About
+// About
 import about from "../src/data/about.json";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -25,10 +25,10 @@ root.render(
         <Router>
             <Header />
             <Routes>
-                <Route path="/" element={<Home />} />
+                <Route exact path="/" element={<Home />} />
                 <Route path="products/:id" element={<Rentals />} />
                 <Route path="/about" element={<About data={about} />} />
-                <Route path="/404" element={<Error404/>} />
+                <Route path="*" element={<Error404/>} />
             </Routes>
             <Footer />
         </Router>

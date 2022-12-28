@@ -8,7 +8,7 @@ function Error404() {
             <span className="error_404_description">
                 Oups! la page que vous {"\n"} demandez n'existe pas.
             </span>
-            <NavLink className="back_to_home_page" to="/" >Retourner sur la page d'accueil</NavLink>
+            <NavLink className="back_to_home_page" to="/">Retourner sur la page d'accueil</NavLink>
         </div>
     )
 }
