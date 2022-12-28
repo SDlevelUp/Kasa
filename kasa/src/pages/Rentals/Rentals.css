@@ -134,4 +134,15 @@ ol {
         margin: 0;
         margin-top: 10px;
     }
+
+    .rental_ratings>img {
+        height: 15%;
+        width: 15%;
+    }
+
+    .rental_ratings {
+        display: flex;
+        justify-content: flex-start;
+    }
+
 }

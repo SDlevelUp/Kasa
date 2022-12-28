@@ -4,7 +4,7 @@ import Collapse from "../../components/Collapse/Collapse";
 import Tags from "../../components/Tags/Tags";
 import Carrousel from "../../components/Carrousel/Carrousel";
 import Hosts from "../../components/Hosts/Hosts"
-import { Ratings } from "../../components/Ratings/Ratings";
+import Ratings from "../../components/Ratings/Ratings";
 
 import "./Rentals.css";
 
@@ -26,10 +26,6 @@ function Rental() {
         location,
     } = product;
 
-    const ratings = [1, 2, 3, 4, 5].map((n) => (
-        <Ratings key={n} selected={n <= Number(rating)} />
-    ));
-
     const equipementsRental = equipments.map((equipment, index) => {
         return <li key={index}>{equipment}</li>;
     });
@@ -50,7 +46,7 @@ function Rental() {
                     </div>
                     <div className="rental_rating_host">
                         <Hosts host={host} />
-                        <div className="rental_ratings">{ratings}</div>
+                        <Ratings ratingScale={rating} />
                     </div>
                 </div>
                 <div className="rental_description_equipments">
