@@ -6,7 +6,7 @@ import Banner from "../../components/Banner/Banner";
 function About({ data }) {
     return (
         <div className="about_page">
-            <Banner className="banner_about" image={banner} />
+            <Banner className="about_banner" image={banner} />
             <div className="collapse_about">
                 {data.map((item) => (
                     <Collapse
