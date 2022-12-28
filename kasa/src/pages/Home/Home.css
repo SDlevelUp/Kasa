@@ -6,12 +6,7 @@
 }
 
 .banner {
-    /* position: absolute; */
     height: 223px;
-    /* left: 100px; */
-    /* top: 171px; */
-    background-image: url("../../assets/banner.png");
-    background-repeat: no-repeat;
     width: 100%;
     opacity: 0.9;
 }
