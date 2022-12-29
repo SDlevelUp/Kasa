@@ -21,7 +21,6 @@ function Collapse({ titre, description }) {
                 open && <div className="collapse_description">{description}</div>
             }
         </div >
-
     )
 }
 

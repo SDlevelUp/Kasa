@@ -35,7 +35,7 @@ function Carrousel({ pictures }) {
                                     <img src={rightArrow} alt="Next arrow" />
                                 </div>
                             </>
-                        ) : ""}
+                        ) : null}
                     </div>
                 )
             )}

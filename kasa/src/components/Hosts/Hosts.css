@@ -1,3 +1,5 @@
+/* DESKTOP */
+
 .host_display {
     display: flex;
     justify-content: flex-end;
@@ -15,12 +17,14 @@
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 500;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: right;
     margin-right: 10px;
     color: #ff6060;
-    width: min-content
+    width: min-content;
 }
+
+/* MOBILE */
 
 @media screen and (max-width: 768px) {
     .host_picture {

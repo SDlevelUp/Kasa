@@ -1,3 +1,5 @@
+/* DESKTOP */
+
 .collapse {
     font-family: Montserrat;
     border-radius: 5px;
@@ -45,7 +47,10 @@
     font-size: 18px;
     font-weight: 400;
     padding: 43px 12px 10px 20px;
+    list-style-type: none;
 }
+
+/* MOBILE */
 
 @media (max-width: 768px) {
     .collapse_content {
