@@ -1,0 +1,28 @@
+.banner-container {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.banner-background img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 223px;
+    width: 100%;
+    border-radius: 25px;
+    filter: brightness(70%);
+    z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+
+    .banner-background img {
+        background-image: none;
+    }
+}
