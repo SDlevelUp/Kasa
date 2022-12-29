@@ -5,7 +5,7 @@ import "./Banner.css"
 function Banner({ image, text }) {
     return (
         <div className="banner">
-            <img src={image} alt="Banner" className="banner_img" />
+            <img src={image} className="banner_img" alt="Banner" />
             <div className="banner_background"></div>
             {text ? <h1 className="banner_text">{text}</h1> : null}
         </div>
