@@ -10,9 +10,9 @@ function About({ data }) {
     return (
         <div className="about_page">
             <Banner className="about_banner" image={banner} />
-            {/* <section>
+            <section>
                 <BannerAbout image={bannerMobile} />
-            </section> */}
+            </section>
             <div className="collapse_about">
                 {data.map((item) => (
                     <Collapse
