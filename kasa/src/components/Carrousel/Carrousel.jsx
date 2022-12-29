@@ -26,12 +26,16 @@ function Carrousel({ pictures }) {
                             {index + 1}/{length}
                         </span>
                         <img src={picture} alt="Rental" />
-                        <div className="carrousel_leftArrow" onClick={leftSlide}>
-                            <img src={leftArrow} alt="Preview arrow" />
-                        </div>
-                        <div className="carrousel_rightArrow" onClick={rightSlide}>
-                            <img src={rightArrow} alt="Next arrow" />
-                        </div>
+                        {length > 1 ? (
+                            <>
+                                <div className="carrousel_leftArrow" onClick={leftSlide}>
+                                    <img src={leftArrow} alt="Preview arrow" />
+                                </div>
+                                <div className="carrousel_rightArrow" onClick={rightSlide}>
+                                    <img src={rightArrow} alt="Next arrow" />
+                                </div>
+                            </>
+                        ) : ""}
                     </div>
                 )
             )}
