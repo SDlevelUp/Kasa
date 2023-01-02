@@ -1,4 +1,4 @@
-.banner-container {
+.banner-content {
     position: relative;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -6,12 +6,13 @@
     margin-right: 5%;
 }
 
-.banner-background img {
+.banner-background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../../assets/bannerAbout.png");
     display: flex;
     justify-content: center;
     align-items: center;
-    background-size: cover;
-    background-repeat: no-repeat;
     object-fit: cover;
     height: 223px;
     width: 100%;
@@ -22,7 +23,10 @@
 
 @media screen and (max-width: 768px) {
 
-    .banner-background img {
-        background-image: none;
+    .banner-background {
+        background-image: url("../../assets/bannerAboutMobile.png");
+        border-radius: 25px;
+        mix-blend-mode: darken;
+        background-color: #000000;
     }
 }
