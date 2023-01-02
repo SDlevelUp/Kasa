@@ -1,11 +1,11 @@
 import "./BannerAbout.css"
 
 
-function BannerAbout({ image }) {
+function BannerAbout() {
     return (
-        <div className="banner-container">
+        <div className="banner-content">
             <div className="banner-background">
-                <img src={image} alt="About banner" />
+
             </div>
         </div>
     );
