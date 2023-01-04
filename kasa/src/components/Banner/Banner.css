@@ -9,13 +9,6 @@
 }
 
 .banner_background {
-    /* background-color: black;
-    position: absolute;
-    top: 0;
-    border-radius: 10px;
-    width: 100%;
-    opacity: 0.4; */
-
     background: #000000;
     mix-blend-mode: darken;
     opacity: 0.3;
@@ -45,13 +38,28 @@
 
 @media screen and (max-width: 768px) {
     .banner_text {
+        left: 36px;
         font-size: 24px;
-        align-items: center;
-        justify-content: flex-start;
         line-height: 27px;
+        right: 87px;
+        width: 224px;
+        height: 139px;
+        align-items: flex-end;
+        display: flex;
+        bottom: 20px;
     }
 
     .home .banner {
         height: 111px;
+    }
+
+    .banner_img {
+        width: 584px;
+        height: 179px;
+        position: absolute;
+        object-fit: cover;
+        filter: brightness(70%);
+        left: -120px;
+        bottom: -19px;
     }
 }
