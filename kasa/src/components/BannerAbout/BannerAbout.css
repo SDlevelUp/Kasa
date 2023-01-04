@@ -14,18 +14,22 @@
     justify-content: center;
     align-items: center;
     object-fit: cover;
-    height: 223px;
+    height: 210px;
     width: 100%;
     border-radius: 25px;
     filter: brightness(70%);
     z-index: 1;
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 375px) and (max-width: 768px) {
 
     .banner-background {
         background-image: url("../../assets/bannerAboutMobile.png");
         border-radius: 25px;
         mix-blend-mode: darken;
+
+        margin-left: -31px;
+        width: 348px;
+        height: 215px;
     }
 }

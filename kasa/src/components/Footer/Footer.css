@@ -1,14 +1,16 @@
 .footer {
-    display: flex;
     position: relative;
+    margin-top: 80px;
+    display: flex;
     flex-direction: column;
-    height: 160px;
-    margin-top: 100px;
-    padding-top: 12px;
     align-items: center;
     justify-content: center;
-    background: black;
-
+    padding-top: 20px;
+    background: #000000;
+    color: #ffffff;
+    width: 102%;
+    height: 209px;
+    right: 10px;
 }
 
 .footer_allrights {
@@ -35,5 +37,10 @@
 
     .footer_logo>img {
         width: 122px;
+    }
+
+    .footer {
+        height: 209px;
+        width: 377px;
     }
 }
