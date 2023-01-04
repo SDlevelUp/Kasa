@@ -3,7 +3,7 @@
     background-color: #f7f7f7;
     border-radius: 25px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 53px;
+    gap: 43px;
     border-radius: 25px;
     background-color: #f7f7f7;
     padding: 50px 30px 50px 56px;
@@ -25,14 +25,6 @@ img.card_gallery {
 }
 
 .card_title {
-    /* position: absolute;
-    left: 6%;
-    right: 19%;
-    top: 74%;
-    bottom: 6%;
-    line-height: 25.67px;
-    color: white; */
-
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 500;
@@ -83,26 +75,24 @@ h2 {
 
 @media (max-width: 768px) {
     img.card_gallery {
-        width: 423px;
+        width: 335px;
         height: 255px;
     }
 
     .card_image {
-        width: 423px;
+        width: 335px;
         height: 255px;
     }
 
     .card_cover {
-        width: 423px;
+        width: 335px;
         height: 255px;
     }
 
     .cards_display {
         background-color: white;
-        padding: 0 0 0 0;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-top: 0px;
+        margin-left: 10px;
+        margin-top: -53px;
     }
 
     .card_title {
