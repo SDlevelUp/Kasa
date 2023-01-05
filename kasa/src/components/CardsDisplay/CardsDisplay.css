@@ -94,12 +94,11 @@ h2 {
         margin-left: -36px;
         margin-top: -61px;
     }
-}
 
-.card_title {
-    top: 246px;
-    left: 5.81%;
-    right: 0%;
-    /* top: 29%; */
-    bottom: 25.53%;
+    .card_title {
+        top: 246px;
+        left: 5.81%;
+        right: 0%;
+        bottom: 25.53%;
+    }
 }
