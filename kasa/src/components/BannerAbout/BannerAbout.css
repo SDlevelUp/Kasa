@@ -27,8 +27,7 @@
         background-image: url("../../assets/bannerAboutMobile.png");
         border-radius: 25px;
         mix-blend-mode: darken;
-
-        margin-left: -31px;
+        margin-left: -24px;
         width: 348px;
         height: 215px;
     }

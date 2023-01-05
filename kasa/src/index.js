@@ -16,6 +16,8 @@ import Footer from "./components/Footer/Footer";
 // About
 import about from "../src/data/about.json";
 
+import "./index.css"
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <React.StrictMode>

@@ -8,9 +8,7 @@
     padding-top: 20px;
     background: #000000;
     color: #ffffff;
-    width: 102%;
-    height: 230px;
-    right: 10px;
+    height: 209px;
 }
 
 .footer_allrights {
@@ -37,10 +35,5 @@
 
     .footer_logo>img {
         width: 122px;
-    }
-
-    .footer {
-        height: 230px;
-        width: 105%;
     }
 }

@@ -73,7 +73,7 @@ h2 {
     border-radius: 10px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 375px) and (max-width: 768px) {
     img.card_gallery {
         width: 335px;
         height: 255px;
@@ -91,11 +91,15 @@ h2 {
 
     .cards_display {
         background-color: white;
-        margin-left: -43px;
-        margin-top: -64px;
+        margin-left: -36px;
+        margin-top: -61px;
     }
+}
 
-    .card_title {
-        top: 182px;
-    }
+.card_title {
+    top: 246px;
+    left: 5.81%;
+    right: 0%;
+    /* top: 29%; */
+    bottom: 25.53%;
 }
