@@ -1,9 +1,9 @@
 .banner-content {
-    position: relative;
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 100%;
+    max-width: 1250px;
+    margin: auto;
 }
 
 .banner-background {
@@ -22,13 +22,10 @@
 }
 
 @media (min-width: 375px) and (max-width: 768px) {
-
     .banner-background {
         background-image: url("../../assets/bannerAboutMobile.png");
         border-radius: 25px;
         mix-blend-mode: darken;
-        margin-left: -24px;
-        width: 348px;
-        height: 215px;
+        width: 100%;
     }
 }

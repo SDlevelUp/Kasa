@@ -1,12 +1,17 @@
 /* DESKTOP*/
 
+header {
+    max-width: 1250px;
+    width: 100%;
+    margin: auto;
+}
+
 .navigation {
     display: flex;
     justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
     margin-top: 40px;
     align-items: center;
+    padding: 0 20px;
 }
 
 .nav_link {
@@ -28,20 +33,17 @@
 /* MOBILE */
 
 @media (max-width: 768px) {
-    .navigation {
-        margin-right: 20px;
-        margin-left: 20px;
-        margin-top: 20px;
-    }
-
     .nav_image {
-        height: 47px;
-        width: 145px;
+        height: 40px;
     }
 
     .nav_link {
         text-transform: uppercase;
         font-size: 12px;
         padding-left: 10px;
+    }
+
+    .navigation {
+        margin-top: 20px;
     }
 }

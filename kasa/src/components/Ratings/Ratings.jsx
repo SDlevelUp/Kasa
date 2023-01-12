@@ -13,13 +13,11 @@ function Ratings(props) {
         <div className="rental_ratings">
             {order.map((orderElem) =>
                 ratingScale >= orderElem ?
-                    <img key={orderElem.toString()} src={redStar} alt="Rating Scale" /> :
-                    <img key={orderElem.toString()} src={greyStar} alt="Rating Scale" />
+                    <img key={orderElem} src={redStar} alt="Rating Scale" /> :
+                    <img key={orderElem} src={greyStar} alt="Rating Scale" />
             )}
         </div>
     )
 }
 
 export default Ratings;
-
-

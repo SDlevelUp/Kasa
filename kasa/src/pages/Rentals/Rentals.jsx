@@ -36,8 +36,10 @@ function Rental() {
                 <Carrousel pictures={pictures} />
                 <div className="rental_content">
                     <div className="rental_informations">
-                        <h1 className="rental_title">{title}</h1>
-                        <p className="rental_location">{location}</p>
+                        <div className="w-rental-title-location">
+                            <h1 className="rental_title">{title}</h1>
+                            <p className="rental_location">{location}</p>
+                        </div>
                         <div className="rental_tags">
                             {tags.map((tag, index) => (
                                 <Tags key={index} citytag={tag} />

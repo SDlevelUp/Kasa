@@ -6,9 +6,9 @@ import BannerAbout from "../../components/BannerAbout/BannerAbout";
 function About({ data }) {
     return (
         <div className="about_page">
-            <section>
-                <BannerAbout />
-            </section>
+            {/* <section> */}
+            <BannerAbout />
+            {/* </section> */}
             <div className="collapse_about">
                 {data.map((item) => (
                     <Collapse

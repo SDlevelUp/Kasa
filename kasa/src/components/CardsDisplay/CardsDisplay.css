@@ -1,12 +1,14 @@
 .cards_display {
-    display: grid;
+    display: flex;
     background-color: #f7f7f7;
     border-radius: 25px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 43px;
-    border-radius: 25px;
-    background-color: #f7f7f7;
-    padding: 50px 30px 50px 56px;
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+    /* gap: 43px; */
+    /* padding: 50px 30px 50px 56px; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 35px;
+    padding: 40px 20px;
 }
 
 .card {
@@ -29,7 +31,6 @@ img.card_gallery {
     object-fit: cover;
     width: 340px;
     height: 340px;
-    background-color: #FF6060;
 }
 
 .card_title {
@@ -82,6 +83,7 @@ h2 {
     object-fit: cover;
     width: 340px;
     height: 340px;
+    background-color: #FF6060;
 }
 
 .card {
@@ -108,7 +110,6 @@ h2 {
 
     .cards_display {
         background-color: white;
-        margin-left: -36px;
         margin-top: -61px;
     }
 

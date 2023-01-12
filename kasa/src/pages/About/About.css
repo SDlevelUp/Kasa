@@ -5,10 +5,8 @@
 }
 
 .about_page {
-    margin-top: 37px;
-    margin-bottom: 40px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: auto;
+    padding: 20px 20px;
 }
 
 .banner_about {
@@ -25,18 +23,12 @@
 }
 
 .collapse_about {
-    margin-left: 108px;
-    margin-right: 109px;
+    width: 70%;
+    margin: auto;
 }
 
 @media screen and (max-width: 768px) {
-    .about_page {
-        margin: 17px 20px 29px 20px;
-    }
-
     .collapse_about {
-        margin-top: 19px;
-        margin-left: 0px;
-        margin-right: 0px;
+        width: 100%;
     }
 }

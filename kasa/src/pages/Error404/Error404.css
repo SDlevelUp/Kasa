@@ -34,13 +34,15 @@
 
 @media screen and (max-width: 768px) {
     .error_404_title {
-        font-size: 100px;
-        margin: 198px 89px 11px 88px;
+        font-size: 96px;
+        display: flex;
+        align-items: center;
+        margin-top: 100px;
     }
 
     .error_404_description {
         font-family: Montserrat;
-        font-size: 28px;
+        font-size: 18px;
         font-weight: 500;
         letter-spacing: 0em;
         width: 100%;
