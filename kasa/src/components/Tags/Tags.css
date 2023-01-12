@@ -6,10 +6,7 @@
     color: white;
     padding: 3px 10px;
     margin-right: 10px;
-    margin-bottom: 10px;
     min-width: 50px;
-    text-align: center;
-    min-width: 70px;
 }
 
 .tagCity_text {
@@ -22,8 +19,17 @@
 
 /* MOBILE */
 
-@media screen and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 768px) {
     .tagCity_text {
-        font-size: 14px;
+        font-size: 10px;
+    }
+
+    .tagCity {
+        position: relative;
+        height: 18px;
+        width: 84px;
+        left: 0px;
+        top: 0px;
+        border-radius: 5px;
     }
 }

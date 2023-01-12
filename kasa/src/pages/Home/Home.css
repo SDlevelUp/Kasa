@@ -1,13 +1,6 @@
 .home {
-    /* margin-top: 80px;
-    margin-bottom: 80px;
-    margin-left: 100px;
-    margin-right: 100px; */
-
     margin-top: 80px;
     margin-bottom: 80px;
-    /* margin-left: 100px; */
-    /* margin-right: 100px; */
     width: 100%;
     max-width: 1250px;
     margin: 80px auto;
@@ -20,10 +13,14 @@
     opacity: 0.9;
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 768px) {
     .home {
         margin-top: 14px;
         margin-right: 0;
-        margin-left: 0;
+        margin-left: 3.5px;
+    }
+
+    .banner {
+        width: 100px;
     }
 }

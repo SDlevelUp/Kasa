@@ -2,6 +2,7 @@
     max-width: 1250px;
     width: 100%;
     margin: 20px auto;
+    padding: 0 20px;
 }
 
 .rental_content {
@@ -9,11 +10,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 120px;
 }
 
 .rental_informations {
     display: flex;
     flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
 }
 
 .rental_title {
@@ -32,15 +36,22 @@
     margin-top: 0;
 }
 
+.rental_rating_host {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+}
+
 .rental_tags {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 10px;
 }
 
 .rental_ratings {
     display: flex;
     justify-content: flex-end;
+    gap: 3.5px;
 }
 
 .rental_equipments {
@@ -69,21 +80,8 @@ ol {
     padding: 0;
 }
 
-@media screen and (max-width: 768px) {
-    .red {
-        font-size: 15px;
-    }
 
-    .grey {
-        font-size: 15px;
-    }
-}
-
-@media (max-width: 768px) {
-    .rental_display {
-        padding: 0 20px;
-    }
-
+@media (min-width: 320px) and (max-width: 768px) {
     .rental_title {
         font-family: Montserrat;
         font-size: 18px;
@@ -104,10 +102,13 @@ ol {
 
     .rental_tags {
         margin-top: 16px;
+        height: 50px;
+        width: 300px;
     }
 
     .rental_content {
         flex-direction: column;
+        height: auto;
     }
 
     .rental_equipments {
@@ -128,18 +129,25 @@ ol {
         justify-content: space-between;
         flex-direction: row-reverse;
         width: 100%;
-        margin: 0;
-        margin-top: 10px;
+        margin-top: -18px;
     }
 
     .rental_ratings>img {
-        height: 15%;
-        width: 15%;
+        height: 15px;
+        width: 15px;
     }
 
     .rental_ratings {
         display: flex;
         justify-content: flex-start;
+    }
+
+    .red {
+        font-size: 15px;
+    }
+
+    .grey {
+        font-size: 15px;
     }
 
 }

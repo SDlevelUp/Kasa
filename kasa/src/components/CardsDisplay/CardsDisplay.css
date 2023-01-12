@@ -2,9 +2,6 @@
     display: flex;
     background-color: #f7f7f7;
     border-radius: 25px;
-    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
-    /* gap: 43px; */
-    /* padding: 50px 30px 50px 56px; */
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 35px;
@@ -41,7 +38,7 @@ img.card_gallery {
     display: flex;
     left: 6%;
     right: 19%;
-    top: 74%;
+    top: 80%;
     align-items: flex-end;
     color: white;
     position: absolute;
@@ -50,30 +47,27 @@ img.card_gallery {
     z-index: 2;
 }
 
-
 h2 {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    color: white;
+    position: absolute;
+    bottom: -45px;
 }
 
 .card_cover::before {
     content: "";
-    position: absolute;
     inset: 0;
     z-index: 1;
     border-radius: 10px;
     width: 100%;
     height: 100%;
     display: flex;
-    top: 74%;
+    top: 0%;
     align-items: flex-end;
     color: white;
     position: absolute;
-    max-width: 340px;
-    max-height: 89px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
 }
 
@@ -90,10 +84,10 @@ h2 {
     border-radius: 10px;
 }
 
-@media (min-width: 375px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 768px) {
     img.card_gallery {
-        width: 335px;
-        height: 255px;
+        width: 300px;
+        height: 238px;
     }
 
     .card_image {
@@ -102,22 +96,30 @@ h2 {
     }
 
     .card_cover {
-        width: 335px;
-        height: 255px;
-        max-width: 340px;
-        max-height: 225px;
+        width: 300px;
+        height: 238px;
+        left: 18px;
+        position: absolute;
     }
 
     .cards_display {
         background-color: white;
-        margin-top: -61px;
+        margin-top: -60px;
+        gap: 0px;
     }
 
     .card_title {
-        top: 246px;
-        left: 5.81%;
-        right: 0%;
-        bottom: 25.53%;
-        z-index: 2;
+        top: 224px;
+        left: 9%;
+        position: relative;
+    }
+
+    h2 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        position: absolute;
+        bottom: 6px;
     }
 }

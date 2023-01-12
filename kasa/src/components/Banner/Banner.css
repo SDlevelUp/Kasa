@@ -36,13 +36,13 @@
     box-sizing: border-box;
 }
 
-@media (min-width: 375px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 768px) {
     .banner_text {
         left: 16px;
-        font-size: 24px;
+        font-size: 18px;
         line-height: 27px;
         right: 87px;
-        width: 217px;
+        width: 170px;
         height: 48px;
         align-items: flex-end;
         display: flex;
@@ -50,7 +50,7 @@
     }
 
     .home .banner {
-        height: 111px;
+        height: 100px;
         width: 100%;
         border-radius: 10px;
     }

@@ -18,10 +18,9 @@
     width: 100%;
     border-radius: 25px;
     filter: brightness(70%);
-    z-index: 1;
 }
 
-@media (min-width: 375px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 768px) {
     .banner-background {
         background-image: url("../../assets/bannerAboutMobile.png");
         border-radius: 25px;
