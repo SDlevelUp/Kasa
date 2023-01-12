@@ -10,7 +10,7 @@ function Ratings(props) {
     const order = [1, 2, 3, 4, 5]
 
     return (
-        <div className="rental_ratings">
+        <div className="rental-ratings">
             {order.map((orderElem) =>
                 ratingScale >= orderElem ?
                     <img key={orderElem} src={redStar} alt="Rating Scale" /> :

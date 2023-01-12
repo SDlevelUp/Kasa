@@ -1,6 +1,6 @@
 /* DESKTOP */
 
-.tagCity {
+.tag-city {
     background-color: #ff6060;
     border-radius: 10px;
     color: white;
@@ -9,7 +9,7 @@
     min-width: 50px;
 }
 
-.tagCity_text {
+.tag-city-text {
     margin: 0;
     font-size: 14px;
     font-weight: 500;
@@ -20,16 +20,19 @@
 /* MOBILE */
 
 @media (min-width: 320px) and (max-width: 768px) {
-    .tagCity_text {
+    .tag-city-text {
         font-size: 10px;
+        justify-content: center;
+        display: flex;
     }
 
-    .tagCity {
+    .tag-city {
         position: relative;
-        height: 18px;
-        width: 84px;
-        left: 0px;
-        top: 0px;
+        height: 28px;
+        width: 87px;
         border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 }

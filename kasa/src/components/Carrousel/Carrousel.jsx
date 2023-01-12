@@ -21,17 +21,17 @@ function Carrousel({ pictures }) {
         <>
             {pictures.map((picture, index) =>
                 current === index && (
-                    <div key={picture} className="carrousel_pictures">
-                        <span className="carrousel_count_display">
+                    <div key={picture} className="carrousel-pictures">
+                        <span className="carrousel-count-display">
                             {index + 1}/{length}
                         </span>
                         <img src={picture} alt="Rental" />
                         {length > 1 ? (
                             <>
-                                <div className="carrousel_leftArrow" onClick={leftSlide}>
+                                <div className="carrousel-leftArrow" onClick={leftSlide}>
                                     <img src={leftArrow} alt="Preview arrow" />
                                 </div>
-                                <div className="carrousel_rightArrow" onClick={rightSlide}>
+                                <div className="carrousel-rightArrow" onClick={rightSlide}>
                                     <img src={rightArrow} alt="Next arrow" />
                                 </div>
                             </>

@@ -1,11 +1,11 @@
-.error_404_redirect {
+.error-404-redirect {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
     align-items: center;
 }
 
-.error_404_title {
+.error-404-title {
     font-family: "Montserrat";
     font-weight: 700;
     font-size: 288px;
@@ -14,7 +14,7 @@
     color: #ff6060;
 }
 
-.error_404_description {
+.error-404-description {
     font-family: "Montserrat";
     font-weight: 500;
     font-size: 48px;
@@ -23,7 +23,7 @@
     color: #ff6060;
 }
 
-.back_to_home_page {
+.back-to-home-page {
     font-family: "Montserrat";
     font-size: 20px;
     font-weight: 500;
@@ -33,14 +33,14 @@
 }
 
 @media screen and (max-width: 768px) {
-    .error_404_title {
+    .error-404-title {
         font-size: 96px;
         display: flex;
         align-items: center;
         margin-top: 100px;
     }
 
-    .error_404_description {
+    .error-404-description {
         font-family: Montserrat;
         font-size: 18px;
         font-weight: 500;
@@ -49,7 +49,7 @@
         margin: 0;
     }
 
-    .back_to_home_page {
+    .back-to-home-page {
         font-family: Montserrat;
         font-size: 14px;
         margin: 133px 78px 49px 76px;

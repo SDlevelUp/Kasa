@@ -4,18 +4,18 @@ import { Link } from "react-router-dom";
 
 function CardsDisplay() {
     return (
-        <div className="cards_display">
+        <div className="cards-display">
             {Rentals.map((rental) => {
                 return (
                     <div className="card" key={rental.id}>
-                        <div className="card_image">
-                            <Link to={"products/" + rental.id} className="card_link">
-                                <div className="card_title">
-                                    <h2>{rental.title}</h2>
-                                </div>
-                                <div className="card_cover">
+                        <div className="card-image">
+                            <Link to={"products/" + rental.id} className="card-link">
+                                <h2 className="card-title">
+                                    {rental.title}
+                                </h2>
+                                <div className="card-cover">
                                     <img
-                                        className="card_gallery"
+                                        className="card-gallery"
                                         src={rental.cover}
                                         alt={rental.title}
                                     />

@@ -6,10 +6,10 @@ function Footer() {
     return (
         <footer>
             <div className="footer">
-                <div className="footer_logo">
+                <div className="footer-logo">
                     <img src={logo} alt="Footer logo" />
                 </div>
-                <div className="footer_allrights">
+                <div className="footer-allrights">
                     <p>© 2020 Kasa. All rights reserved</p>
                 </div>
             </div>

@@ -1,18 +1,18 @@
 /* DESKTOP */
 
-.host_display {
+.host-display {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-.host_picture {
+.host-picture {
     width: 64px;
     height: 64px;
     border-radius: 50%;
 }
 
-.host_name {
+.host-name {
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 500;
@@ -26,16 +26,16 @@
 /* MOBILE */
 
 @media screen and (max-width: 768px) {
-    .host_picture {
+    .host-picture {
         width: 32px;
         height: 32px;
     }
 
-    .host_display {
+    .host-display {
         padding: 0;
     }
 
-    .host_name {
+    .host-name {
         font-size: 12px;
     }
 }

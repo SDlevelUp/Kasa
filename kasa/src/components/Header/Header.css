@@ -15,7 +15,7 @@ header {
     padding: 0 20px;
 }
 
-.nav_link {
+.nav-link {
     color: #ff6060;
     font-size: 24px;
     margin-left: 10px;
@@ -28,17 +28,18 @@ header {
 
 .active {
     text-decoration: underline;
+    text-underline-offset: 3px;
 }
 
 
 /* MOBILE */
 
 @media (max-width: 768px) {
-    .nav_image {
+    .nav-image {
         height: 40px;
     }
 
-    .nav_link {
+    .nav-link {
         text-transform: uppercase;
         font-size: 12px;
         padding-left: 0px;

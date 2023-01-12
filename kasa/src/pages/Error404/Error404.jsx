@@ -3,12 +3,12 @@ import "./Error404.css";
 
 function Error404() {
     return (
-        <div className="error_404_redirect">
-            <h1 className="error_404_title">404</h1>
-            <span className="error_404_description">
+        <div className="error-404-redirect">
+            <h1 className="error-404-title">404</h1>
+            <span className="error-404-description">
                 Oups! la page que vous {"\n"} demandez n'existe pas.
             </span>
-            <NavLink className="back_to_home_page" to="/">Retourner sur la page d'accueil</NavLink>
+            <NavLink className="back-to-home-page" to="/">Retourner sur la page d'accueil</NavLink>
         </div>
     )
 }

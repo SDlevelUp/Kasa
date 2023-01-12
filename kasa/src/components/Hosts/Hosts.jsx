@@ -3,9 +3,9 @@ import "./Hosts.css";
 
 function Hosts({ host }) {
     return (
-        <div className="host_display">
-            <div className="host_name">{host.name}</div>
-            <img className="host_picture" src={host.picture} alt={host.name} />
+        <div className="host-display">
+            <div className="host-name">{host.name}</div>
+            <img className="host-picture" src={host.picture} alt={host.name} />
         </div>
     );
 }

@@ -8,14 +8,13 @@
     overflow: hidden;
 }
 
-.banner_background {
+.banner-background {
     background: #000000;
     mix-blend-mode: darken;
-    opacity: 0.3;
     border-radius: 25px;
 }
 
-.banner_img {
+.banner-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -23,7 +22,7 @@
     border-radius: 25px;
 }
 
-.banner_text {
+.banner-text {
     font-family: Montserrat;
     font-size: 47px;
     font-weight: 500;
@@ -37,7 +36,7 @@
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
-    .banner_text {
+    .banner-text {
         left: 16px;
         font-size: 18px;
         line-height: 27px;
@@ -55,7 +54,7 @@
         border-radius: 10px;
     }
 
-    .banner_img {
+    .banner-img {
         width: 100%;
         height: 179px;
         object-fit: cover;

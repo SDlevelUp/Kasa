@@ -8,17 +8,17 @@ function Collapse({ titre, description }) {
     return (
         <div className="collapse" id={`collapse-${titre}`} onClick={
             () => setOpen(!open)}>
-            <div className="collapse_content">
-                <div className="collapse_titre">{titre}</div>
+            <div className="collapse-content">
+                <div className="collapse-titre">{titre}</div>
                 <span
-                    className={`collapse_arrow ${open}`}
+                    className={`collapse-arrow ${open}`}
                     onClick={() => setOpen(!open)}
                 >
                     <img src={rotateArrow} alt="Open this collapse" />
                 </span>
             </div>
             {
-                open && <div className="collapse_description">{description}</div>
+                open && <div className="collapse-description">{description}</div>
             }
         </div >
     )

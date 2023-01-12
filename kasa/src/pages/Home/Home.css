@@ -16,8 +16,6 @@
 @media (min-width: 320px) and (max-width: 768px) {
     .home {
         margin-top: 14px;
-        margin-right: 0;
-        margin-left: 3.5px;
     }
 
     .banner {

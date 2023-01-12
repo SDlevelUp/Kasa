@@ -32,33 +32,33 @@ function Rental() {
 
     return (
         <>
-            <div className="rental_display">
+            <div className="rental-display">
                 <Carrousel pictures={pictures} />
-                <div className="rental_content">
-                    <div className="rental_informations">
+                <div className="rental-content">
+                    <div className="rental-informations">
                         <div className="w-rental-title-location">
-                            <h1 className="rental_title">{title}</h1>
-                            <p className="rental_location">{location}</p>
+                            <h1 className="rental-title">{title}</h1>
+                            <p className="rental-location">{location}</p>
                         </div>
-                        <div className="rental_tags">
+                        <div className="rental-tags">
                             {tags.map((tag, index) => (
                                 <Tags key={index} citytag={tag} />
                             ))}
                         </div>
                     </div>
-                    <div className="rental_rating_host">
+                    <div className="rental-rating-host">
                         <Hosts host={host} />
                         <Ratings ratingScale={rating} />
                     </div>
                 </div>
-                <div className="rental_description_equipments">
+                <div className="rental-description-equipments">
                     <Collapse
-                        className="rental_description"
+                        className="rental-description"
                         titre="Description"
                         description={description}
                     />
                     <Collapse
-                        className="rental_equipment"
+                        className="rental-equipment"
                         titre="Équipements"
                         description={equipementsRental}
                     />
